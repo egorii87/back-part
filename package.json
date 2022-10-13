@@ -1,0 +1,30 @@
+{
+  "name": "back-part",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorii87/back-part.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorii87/back-part/issues"
+  },
+  "homepage": "https://github.com/egorii87/back-part#readme",
+  "dependencies": {
+    "eslint": "^8.25.0",
+    "express": "^4.18.2",
+    "husky": "^8.0.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
